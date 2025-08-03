@@ -43,7 +43,7 @@ class EchoSurge:
         return False
 
     def get_persona_prompt(self):
-        return self.personas.get(self.active_persona, self.personas["Default"])
+        return self.personas.get(self.active_persona, self.personas["MirrorGPT"])
 
     def generate_response(self, user_prompt):
         """
