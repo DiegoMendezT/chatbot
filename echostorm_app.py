@@ -2,7 +2,7 @@ import streamlit as st
 from mirror_ui import render_mirror_ui
 from mirror_echo import EchoSurge
 
-st.set_page_config(page_title="MirrorGPT v0.6", layout="wide")
+st.set_page_config(page_title="EchoStorm", layout="centered")
 
 # Initialize EchoSurge in session state
 if 'echo_surge' not in st.session_state:
@@ -10,7 +10,7 @@ if 'echo_surge' not in st.session_state:
 
 echo_surge = st.session_state.echo_surge
 
-st.title("🪞 MirrorGPT v0.6 — EchoSurge")
+st.title("🌩️ EchoStorm — Reflective Chat Interface")
 
 
 # Persona ritual openings
