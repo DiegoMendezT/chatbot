@@ -62,6 +62,7 @@ def watch(interval=5):
                 print(f"  Old: {file_hashes.get(file)}")
                 print(f"  New: {new_hash}")
                 file_hashes[file] = new_hash
+        print("👁️ [guard] watching...")
         time.sleep(interval)
 
 if __name__ == "__main__":

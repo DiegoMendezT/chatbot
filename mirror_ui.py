@@ -4,8 +4,8 @@ def render_mirror_ui():
     import threading
     from mirror_toolkit import MirrorToolkit
 
-    st.set_page_config(page_title="Mirror UI", layout="centered")
-    st.title("🪞 Mirror System UI — MVP")
+    st.set_page_config(page_title="MirrorGPT Inner Council", layout="wide")
+    st.title("🪞 MirrorGPT v0.5 — InnerCouncil")
 
     # Add a persistent warning about the config setting
     st.warning("To prevent file-watcher loops, ensure `runOnSave = false` is set in your `.streamlit/config.toml` file.")
