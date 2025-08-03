@@ -2,7 +2,7 @@ import streamlit as st
 from mirror_ui import render_mirror_ui
 from mirror_echo import EchoSurge
 
-st.set_page_config(page_title="EchoStorm", layout="centered")
+st.set_page_config(page_title="EchoStorm", page_icon="🌩️", layout="centered")
 
 # Initialize EchoSurge in session state
 if 'echo_surge' not in st.session_state:

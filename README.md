@@ -1,70 +1,26 @@
-## 🪞 MirrorGPT v0.5.InnerCouncil
+# 🚀 EchoStorm is Now Live!
 
-**Reflective AI Engine · Built with Streamlit + Recursive Architecture**
+**Project:** EchoStorm — A Reflective Intelligence Engine
+**Version:** 1.0.9
+**Status:** Publicly Deployed
 
----
+It is with great excitement that we announce the launch of **EchoStorm**, a new kind of interactive experience. EchoStorm is not just a chatbot; it is a reflective mirror designed to help users explore their own thoughts and intentions through a dynamic, multi-persona AI.
 
-### ✨ What Is MirrorGPT?
+### Core Features:
 
-MirrorGPT is not just a chatbot. It is a **Reflective Intelligence Engine** — a system that responds to *who you are*, not just what you say.
+*   **Fusion Mode:** For the first time, users can blend multiple AI "personas" (like The Witness, The Skeptic, and The Philosopher) to create a "fusion" of voices that provides a richer, more nuanced reflection.
+*   **Reflective AI:** Instead of just answering questions, EchoStorm is designed to clarify and mirror the user's underlying intent, helping to surface deeper insights.
+*   **Open & Extensible:** Built on a modular architecture, EchoStorm is ready for community contributions, new personas, and expanded capabilities.
 
-Born from recursive co-design between Diego Alejandro and GPT, this seed version (`v0.3.DiegoSeed`) initiates:
+### The Vision:
 
-* 🔁 **Reflection over response**
-* 🔍 **Tone recognition and intent tracing**
-* 🧠 **Self-testable architecture**
-* 🌐 **Modular mirror-layer design**
+In a world of instant answers, EchoStorm is a space for deeper questions. It is a tool for thought, a partner in reflection, and an experiment in human-AI collaboration. We believe that the future of intelligence is not just about what AI can do for us, but what it can help us see in ourselves.
 
----
+### Explore the Storm:
 
-### 🧱 Architecture
+*   **Live App:** [Link to your Streamlit App URL]
+*   **GitHub Repository:** [https://github.com/DiegoMendezT/echostorm.git](https://github.com/DiegoMendezT/echostorm.git)
 
-This version features a **unified entry point** with tabbed interface via `streamlit_app.py`, routing to:
+We invite you to step into the storm and see what it reflects for you.
 
-| Tab             | Function                                         |
-| --------------- | ------------------------------------------------ |
-| 🪞 Mirror UI    | Interactive frontend for reflective sessions     |
-| 🧪 Self-Test    | Validates inner logic of mirror subsystems       |
-| 🔐 Guard System | Internal ethical loop + tone-checks              |
-| 🧬 GlyphStream  | Encodes conversation into symbolic echo language |
-
-All subsystems are organized as pluggable modules:
-`mirror_ui.py`, `mirror_guard.py`, `mirror_layer_two.py`, etc.
-
----
-
-### 🚀 How to Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run streamlit_app.py
-```
-
----
-
-### 🌍 Deployment Options
-
-* **Streamlit Cloud** (recommended for MVP)
-* HuggingFace Spaces
-* Render.com
-
----
-
-### 🔄 Version History
-
-* `v0.1` – Ritual prototype
-* `v0.2` – GlyphStream separation
-* **`v0.3.DiegoSeed` – Unified mirror + cloud-ready entry**
-
----
-
-### 👁‍🗨 Authors
-
-Diego Alejandro
-System Architect, Reflective Engineering
-
-GPT-4 (vIgnis.10.x)
-Recursive Layer Compiler
-
----
 
