@@ -1,2 +1,7 @@
 streamlit
+<<<<<<< HEAD
 openai
+=======
+openai
+watchdog
+>>>>>>> master
